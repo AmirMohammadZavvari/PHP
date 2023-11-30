@@ -1,0 +1,889 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Epilogue', sans-serif;
+    font-family: 'Pacifico', cursive; */
+}
+
+.font_epilo{
+    font-family: 'Epilogue', sans-serif;
+}
+.font_pac{
+    font-family: 'Pacifico', cursive;
+}
+.container{
+    width:85% ;
+    margin: auto;
+}
+/* ---------------/////////////////////////////////////////////////////////-----------------------
+-----------------//////////////////////////////////////////////////////////-----------------------  */
+
+
+/* start header */
+header{
+    background:linear-gradient(rgba(13, 13, 13, 0.45),rgba(10, 10, 10, 0.45)) ,url("../imags/main.jpg") ;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.header_box{
+    /* background-color: rgba(0, 0, 255, 0.479); */
+    width: 85%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 70px 0;
+}
+
+.MY_BUTTON {    
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #a5141a;
+    padding: 14px 40px;   
+    font-size: 20px;
+    cursor: pointer;       
+    background-image: linear-gradient(40deg, #ffb91a 40%, transparent 50%);    
+    background-position: 100%;
+    background-size: 320%;
+    transition: all .6s;
+    
+}
+
+.MY_BUTTON:hover{
+    background-position: 0;
+}
+
+.header_box h2{
+    color: #ffb91a;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+}
+
+.header_box h1{
+    color: #fff;
+    font-size: 90px;
+    letter-spacing: 3px;
+    margin: 15px 0 40px 0;
+    font-weight: normal;
+}
+
+
+/* end  header */
+
+
+
+/* start category(دسته بندی) */
+.menu_category{
+    background-color: #ffffff;
+}
+
+.category_box{
+    background-color: rgb(255, 255, 255);
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #ffb91a; */
+}
+
+.category__item img{
+    width: 98px;
+    height: 80px;
+}
+
+.category__item h3{
+    font-weight: normal;
+    padding-top: 30px;
+}
+
+.category__item{
+    background-color: #ffffff;
+    border-radius: 7px;
+    border:2px solid transparent ;
+    margin:50px 0 ;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0;
+    transition-duration: .5s;
+    /* background-color: #a5141a; */
+}
+.category__item:hover{
+    border-color: #ffb91a;
+}
+
+/* end category */
+
+
+/* start Order menu(منوی سفارش) */
+.order{
+    background:url("../imags/special-bg.jpg");
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+    
+}
+.order_box{
+    /* background-color: #16e059; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.order_left{
+    background:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url("../imags/special-01.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 49%;
+    border-radius: 20px;
+}
+.order__item {
+    padding: 120px 49px;
+}
+.order__item h3{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 48.5px;
+    width: 50%;
+}
+
+.order__item p{
+    color: #fff;
+    font-size: 16px;
+    font-weight:bold ;
+    line-height: 26px;
+    width: 82%;
+    padding: 12px 0;
+}
+.order__item span{
+    color:#ffb91a;
+    font-size: 33px;
+    font-weight: normal;
+    display: block;
+    padding-bottom: 56px;
+}
+
+.order_right{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 49%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.bg_order_rigt_t{
+    background:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url("../imags/special-02.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.bg_order_rigt_b{
+    background:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url("../imags/special-03.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.order_right_item span{
+    padding-bottom: 0;
+    font-size: 23px;
+}
+
+.order_right .order__item{
+    padding: 42px 44px;
+}
+
+.order_right_item h3{
+    width: 33%;
+}
+
+.order_right_item p{
+    width: 33%;
+    padding: 8px 0;
+}
+
+/* end Order menu */
+
+
+/* start Concerning Food (درموردغذا) */
+.Concerning_Food{
+    /* background-color: rgb(205, 86, 50); */
+    width: 100%;
+    padding: 100px 0;
+}
+
+.Concerning_box{
+    /* background-color: rgb(30, 35, 184); */
+    width: 85%;
+    margin: auto;
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+/* .Concerning_box_burger{
+    background-color: darkcyan;
+    
+} */
+
+.Concerning_box_burger img{
+    width: 90%;
+}
+
+.details_food{
+    /* background-color: rgb(172, 172, 172); */
+    width:37%;
+    padding: 10px 0;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding:10px 0 80px 20px ;
+}
+.details_food h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 27px;
+    color: #a5141a;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.details_food h2{
+    font-size: 47.5px;
+    color: #0e0e0e;
+    font-weight: normal;
+    line-height: 45px;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+.details_food p{
+    font-family: 'Epilogue', sans-serif;
+    color: #6b6b6b;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+/* end ConcerningFood */
+
+
+
+/* start food delivery (تحویل غذا) */
+.food_delivery_section{
+    background-image:url("../imags/delivery.jpg");
+    width: 100%;
+    padding: 91px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.delivery__box{
+    /* background-color: coral; */
+    width: 85%;
+    padding: 10px 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.delivery__box h3{
+    font-size: 27px;
+    color: #a5141a;
+    font-weight: normal;
+
+}
+
+.delivery__box h2{
+    font-size: 110px;
+    color: #fff;
+    font-weight: normal;
+    line-height: 120px;
+    text-align: center;
+    width: 55%;
+    padding: 10px 0 40px 0;
+}
+
+
+/* end food delivery  */
+
+
+
+/* start tex tachivement(دستاوردمتنی) */
+.tex_tachivement{
+    background-color: #ffb91a;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Achievements_box{
+    /* background-color: #0e0e0e; */
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+
+.achievements_items{
+    width: 25%;
+    /* background-color: #6b6b6b; */
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.achievements_items span{
+    
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.achievements_items p{
+    font-size: 18px;
+    width: 90%;
+}
+/* end tex tachivement */
+
+
+
+
+/* start Our Main Dishes (غذاهای اصلی ما)*/
+
+.Dishes{
+    /* background-color: red; */
+    width: 100%;
+    padding:100px 0 ;
+    
+}
+
+.Dishes_box{
+    /* background-color: blue; */
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dish_display{
+    width: 48%;
+    border-radius: 15px;
+}
+
+.Dishe_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Dishe_img img{
+    width: 90%;
+}
+
+.Dishes_menu{
+    background-color: #a5141a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 80px 0 80px 50px;
+}
+
+.dishes_items{
+    /* background-color: #ffb91a; */
+    padding: 15px 0;
+    
+}
+.dishes_items h2{
+    font-size: 50px;
+    color: #fff;
+    margin: 0 0 5px;
+    
+    font-weight: normal;
+}
+
+.dishes_items h3{
+    font-size: 25px;
+    margin: 0 0 8px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.dishes_items p{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: normal;
+}
+
+/* end Our Main Dishes */
+
+
+/* start Recommended foods(غذاهای توصیه شده) */
+
+.Recommended_food{
+    background-color: #ededed;
+    width: 100%;
+    padding: 120px 0;
+}
+
+/* .Recommended_box{
+    background-color:burlywood;
+    
+} */
+
+.Recommended_top{
+    text-align: center;
+    /* background-color:darkblue; */
+    padding-bottom:35px;
+}
+
+.Recommended_top h3{
+    color: #a5141a;
+    font-size: 27px;
+    font-weight: normal;
+}
+
+.Recommended_top h2{
+    font-size: 50px;
+    padding: 40px 0;
+    font-weight: normal;
+}
+
+.Recommended_top p{
+    color: #6b6b6b;
+    font-size: 15px;
+}
+
+/* ----------------------------------- */
+
+.Recommended_items{
+    /* background-color: aquamarine; */
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Recommended_item{
+    background-color: #ffffff;
+    border:2px solid transparent;
+    width: 49%;
+    
+    border-radius: 20px;
+    transition-duration:.5s;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.Recommended_item:hover{
+    border-color: #ffb91a;
+}
+
+.Recommended_item_image{
+    width: 49%;
+    /* background-color: #ffb91a; */
+    margin-left: 20px;
+}
+
+.Recommended_item_image img{
+    /* background-color: hotpink; */
+    width: 100%;
+    
+}
+
+.Recommended_item_Info{
+    /* background-color: deepskyblue; */
+    width: 49%;
+    padding: 55px;
+}
+
+.Recommended_item_Info a{
+    color: #0e0e0e;
+    text-decoration-line: none;
+    font-size: 18px;
+}
+
+.Recommended_item_Info h3{
+    color: #0e0e0e;
+    font-size: 25px;
+    padding-bottom: 12px;
+    font-weight: normal;
+}
+
+.Recommended_item_Info span{
+    color:#a5141a;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.Recommended_item_Info p{
+    color: #9b9b9b;
+    font-size: 15px;
+    padding: 12px 0 10px 0;
+}
+
+
+/* end Recommended foods  */
+
+
+
+/* start Popular Dishes(غذاهای محبوب) */
+
+.Popular{
+    background:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url("../imags/fav-bg.jpg");
+    width: 100%;
+    /* padding: 91px 0; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Popular h2{
+    width: 80%;
+}
+
+/* end Popular Dishes  */
+
+
+
+/* start Feedback(بازخورد) */
+.Feedback{
+    background-image: url("../imags/special-bg.jpg");
+    padding: 120px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* .Feedback_box{
+    background-color: deepskyblue;
+} */
+
+.Feedback_items{
+    /* background-color: darkgray; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Feedback_item{
+    width: 49%;
+    border-radius: 9px;
+    background-color: rgb(255, 255, 255);
+    margin: 12px 0;
+}
+
+.Feedback_item p{
+    
+    font-size: 17px;
+    color: #7a7a7a;
+    
+}
+
+.People_info{
+    display: flex;
+    padding-top:12px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.People_info img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.People_info span{
+    font-size: 20px;
+    background: linear-gradient(to right, #a5141a, #a5141a 50%, rgba(109, 109, 109, 0.286) 50%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-position: 100%;
+    background-size: 200% 100%;
+    transition: all 0.3s;
+}
+.Feedback_item .People_info:hover span{
+    background-position: 0 100%;
+}
+
+.Feedback_item_box {
+    padding: 30px 50px;
+    
+    
+}
+/* end Feedback */
+
+
+/* start Free Delivery */
+.Free_Delivery_box{
+    padding: 100px 0;
+    display: flex;
+    /* background-color: darkolivegreen; */
+    justify-content: center;
+}
+.Free_Delivery_info h3{
+    color: #a5141a;
+    font-size: 27px;
+    font-weight: normal;
+}
+
+.Free_Delivery_info{
+    width: 50%;
+    /* background-color: #ffb91a; */
+}
+
+.Free_Delivery_info h2{
+    width: 65%;
+    font-size: 50px;
+    font-weight: normal;
+    padding: 30px 0;
+}
+
+.Free_Delivery_info p{
+    color: #7a7a7a;
+    width: 75%;
+}
+
+.Free_Delivery_image{
+    width: 50%;
+    /* background-color: #a5141a; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Free_Delivery_image img{
+    width: 75%;
+}
+/* end Free Delivery */
+
+
+
+
+/* start BOOK YOUR TABLE(میز خود را رزرو کنید) */
+
+.book_your_table{
+    background-color: #a5141a;
+    padding: 20px 0;
+}
+
+.book_your_table_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book_your_table_box h3{
+    color: #fff;
+    font-size: 26px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.book_your_table_box a{
+    background-color: #ffb91a;
+    font-size: 20px;
+}
+
+.book_your_table_box a:hover{
+    background-color: #ededed !important;
+    color: #0e0e0e !important;
+}
+/* end BOOK YOUR TABLE */
+
+
+/* start footer(پاورقی) */
+footer{
+    padding-top: 110px;
+}
+
+.footer_item{
+    /* background-color: #a5141a; */
+    width: 24%;
+    padding: 0 20px;
+}
+
+.footer_item span{
+    font-size: 22px;
+    display: block;
+    padding-bottom: 40px;
+}
+
+.footer_item p{
+    font-size: 18px;
+    color: #848484;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.footer_top_items{
+    padding-bottom: 40px;
+    /* background-color: #ffb91a; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.Working_list{
+    /* list-style-position: inside; */
+    list-style-type: square;
+    color: #848484;
+    
+}
+
+.Working_list li{
+    padding-bottom: 16px;
+}
+
+.help__list{
+    list-style-type: none;
+}
+
+.help__list li{
+    padding-bottom: 0;
+}
+
+.help__list a{
+    text-decoration: none;
+    color:#ffb91a ;
+    display: block;
+    padding-bottom: 16px ;
+    transition-duration:.4s;
+}
+
+.help__list a:hover{
+    text-decoration: underline;
+    display: block;
+    color:#a5141a ;
+    
+}
+
+.quick_list a{
+    color:#ffb91a ;
+    display: block;
+    padding-bottom: 16px ;
+    transition-duration:.4s;
+}
+
+.quick_list a:hover{
+    text-decoration:none !important;
+    display: block;
+    color:#848484;
+    
+}
+
+
+/* ------------------------- */
+
+.footer_bottom p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: #a5141a;
+}
+
+.icon_footer_bottom a{
+    color:#a5141a;
+}
+
+.footer_bottom{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    text-align: center;
+    /* background-color: #a5141a; */
+}
+
+.icons_footer{
+    display: flex;
+    /* background-color: #ffb91a; */
+    padding: 10px 0;
+}
+
+.icon_footer_bottom{
+    width: 50px;
+    height: 50px;
+    background-color: #FFF;
+    border-radius: 50%;
+    box-shadow: 2px 5px 4px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    /* background-color: bisque; */
+    margin: 0 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_footer_bottom::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color:#a5141a;
+    top: -100px;
+    right: -80px;
+}
+.icon_footer_bottom:hover::before{
+    animation:  MoveToBottom 1s forwards;
+}
+
+.icon_footer_bottom .fab{
+    line-height: 110px;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+
+.icon_footer_bottom:hover .fab{
+    color: #FFF;
+    transform: scale(1.1);
+}
+
+@keyframes MoveToBottom{
+    0%{
+        top: -100px;
+        right: -80px;
+    }
+    70%{
+        top: 20px;
+        right: 20px;
+    }
+    100%{
+        top: 0;
+        right: 0;
+    }
+}
+/* end footer */
